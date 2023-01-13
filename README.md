@@ -1,2 +1,2 @@
 # CasperHogstrom-Wiki
-This is my wiki.
+## This is my wiki.
