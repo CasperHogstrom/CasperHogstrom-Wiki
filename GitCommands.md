@@ -1,6 +1,7 @@
 # 10 Most important Git Commands
-* Git init (Initialize new Git monitorer)
-* Git status (Check status of current monitored documents)
+* Git init (Initialize new Git monitorer, always the first step)
+
+* Git status (Check status of current monitored repo)
 
 * Git commit (Saves staged changes, along with a short description to the local repository)
 
@@ -10,11 +11,11 @@
 
 * Git add (It stages a change to be included in your next commit)
 
-* Git clone (Clones an existing repo into another place)
+* Git clone (Clones an existing repo into another place, good for testing without tampering with the "real" repo)
 
-* Git remote add "branch" "URL" (Enables devs to work on the same repository by all having remote duplicates)
+* Git remote add "branch" "URL" (Enables devs to work on the same repository by all having remote duplicates, needed for cooperative work on the same repo, in my experience so far)
 
-* Git config (Set configuration values)
+* Git config (Set configuration values locally or globaly for repos)
 
 * Git remote -v (Check the current remote connection)
 
