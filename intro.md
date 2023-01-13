@@ -12,3 +12,5 @@
 * Software registry/Mjukvaru bilbilotek (For getting packets and others smart solutions. Npm Since it is the worlds largest and most widely used)
 
 * Software management automation (Ease of installation, no need for searching the internet it solves that for you. Chocolately Ease of use and it is an optional install when installing node.js)
+
+* Extensions (For relevant intellicense and other framework use cases, but also for more comfort or personalization. I use a few but for just looks and some for getting the right intellicense)
