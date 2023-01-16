@@ -1,13 +1,32 @@
-# Working with git remotly
+# Working with git remotely
 
-* Git remote -v (Check the current remote connection)
+* ### Git clone
+    Clones an existing repo into a new directory, good for testing without tampering with the "real" repo. ```git clone <URL>```
 
-* Git clone (Clones an existing repo into another place, good for testing without tampering with the "real" repo)
+* ### Git pull
+    Download content and updates your local repository to match the downloaded. ```git pull <branch name> <remote name>```
 
-* Git pull (Download content and updates your local repository to match the downloaded)
+* ### Git push 
+    Upload your local repository and commits to a remote one. ```git push <branch name> <remote name>```
 
-* Git push (Upload your local repository and commits to a remote one)
+* ### Git remote  
+    Enables devs to work on the same repository by all having remote duplicates, needed for cooperative work on the same repo, in my experience so far. To add a connection to remote repo ```git remote add <branch> <URL>``` To check current remote connection ```git remote -v```
 
-* Git remote add "branch" "URL" (Enables devs to work on the same repository by all having remote duplicates, needed for cooperative work on the same repo, in my experience so far)
+* ### Git merge
+    Merge different branches, so called forked branches, into one. This is useful if work is done on different branches but then all work needs to be on the same branch. 
+    
+    To understand better ```git merge <branch name>```,  in this case develop so it will look like this, ```git merge develop```  Will result in the commit with the black dot. It creates a new commit along with the two commits that came before and a log message from the user describing the changes. Now the develop branch has merged into the main branch.
 
-* Git merge
+    ```mermaid
+    gitGraph
+        commit
+        commit
+        branch develop
+        checkout develop
+        commit
+        commit
+        checkout main
+        merge develop
+        commit
+        commit
+    ```

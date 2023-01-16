@@ -21,7 +21,7 @@
 
 * ### Git log
     List the version history for current branch or file, and shows commits logs. 
-    For branch history ```git log``` and for file history ```git log -follow[file name]```
+    For branch history ```git log``` and for file history ```git log -follow <file name>```
 
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-log)
 
@@ -36,7 +36,7 @@
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-checkout) 
 
 * ### Git branch
-    Used to list local branches in current repo. Can also be used to create and delete branches. For listing local branches in repo ```git branch```, for creating a branch ```git branch[branch name]``` and for deleting a branch ```git branch -d [branch name]```
+    Used to list local branches in current repo. Can also be used to create and delete branches. For listing local branches in repo ```git branch```, for creating a branch ```git branch <branch name>``` and for deleting a branch ```git branch -d <branch name>```
 
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-branch)
 
