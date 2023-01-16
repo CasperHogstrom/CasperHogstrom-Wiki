@@ -47,5 +47,5 @@ graph TD
     E -->|Git log| E
     E -->|Git branch| E
     E <-->|Git branch| F
-
-    ```
+    
+```
