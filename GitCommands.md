@@ -1,22 +1,27 @@
-# 10 Most important Git Commands
-* Git init (Initialize new Git monitorer, always the first step)
+# 10 Most important Git Commands when workin locally
+* Git init (Initialize new Git monitorer, always the first step.)
 
-* Git status (Check status of current monitored repo)
+* Git status (Check status of current monitored repo.)
 
-* Git commit (Saves staged changes, along with a short description to the local repository)
+* Git commit (Saves staged changes, along with a short description to the local repository.)
 
-* Git push (Upload your local repository and commits to a remote one)
+* Git version (Checks your current version of git.)
 
-* Git pull (Download content and updates your local repository to match the downloaded)
+* Git log/git log -follow[file] (List the version history for current branch or file)
 
 * Git add (It stages a change to be included in your next commit)
 
-* Git clone (Clones an existing repo into another place, good for testing without tampering with the "real" repo)
+* Git checkout/git checkout -b (Used to switch from one branch to another. Can also be used to create a new branch and switch to it.)
 
-* Git remote add "branch" "URL" (Enables devs to work on the same repository by all having remote duplicates, needed for cooperative work on the same repo, in my experience so far)
+* Git branch/git branch [branch name]/git branch -d [branch name] (Used to list local branches in current repo. Can also be used to create and delete branches.)
 
-* Git config (Set configuration values locally or globaly for repos)
+* Git config (Set configuration values locally or globaly for repos.)
 
-* Git remote -v (Check the current remote connection)
+* Git diff/git diff -staged (See the file differences which are not yet staged. See the file differences between the files in the staging area and the latest version present.)
 
-![](Flowchart.svg)
+![](Flowchart.svg) 
+graph TD
+    A(Working Directory) -->|Git add| B(Staging Area)
+    B -->|Git Commit| C(Local Repository)
+    C -->|Git Push| E(Remote Repository)
+    E -->|Git Pull| C
