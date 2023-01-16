@@ -29,7 +29,7 @@
 * Git diff (See the file differences which are not yet staged. See the file differences between the files in the staging area and the latest version present.) To see differences which are not staged ```git diff`` 
 [Link to official refrence documentation](https://www.git-scm.com/docs/git-diff)
 
-```Mermaid
+```mermaid
 graph TD
     A(Working Directory) -->|Git add| B(Staging Area)
     A -->|Git init| B
@@ -47,5 +47,4 @@ graph TD
     E -->|Git log| E
     E -->|Git branch| E
     E <-->|Git branch| F
-    
 ```
