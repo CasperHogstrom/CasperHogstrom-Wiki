@@ -14,3 +14,8 @@
 * Software management automation (Ease of installation, no need for searching the internet it solves that for you. Chocolately Ease of use and it is an optional install when installing node.js)
 
 * Extensions (For relevant intellicense and other framework use cases, but also for more comfort or personalization. I use a few but for just looks and some for getting the right intellicense)
+
+
+
+## Setting up an SSH for an easier and safer connection to Github
+It works through a private key file stored locally on your pc. Its purpose is to increase safety and workflow efficency. Instead of always needing to authenticate you by throwing a prompt where you have to login Github can instead use the SSH to verify your PC.
