@@ -5,28 +5,28 @@
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-init)
 
 * ### Git status 
-    Check status of current monitored repo. See if changes have been staged and which files have been altered. ```git status```
+    Check status of current monitored repo. See if changes have been staged and which files have been altered. Good for double checking that you dont have unstaged changes or staged changes that have not yet been commited. ```git status```
 
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-status)
 
 * ### Git commit 
-    Saves staged changes, along with a short description to the local repository. ```git commit```
+    Saves staged changes, along with a short description to the local repository. Used as a save command for staged changes. ```git commit```
 
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-commit)
 
 * ### Git version
-    Checks your current version of git. ```git version```
+    Checks your current version of git. Useful for just troubleshooting. ```git version```
 
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-version)
 
 * ### Git log
-    List the version history for current branch or file, and shows commits logs. 
+    List the version history for current branch or file, and shows commits logs. Good for checking past changes and look for troublesome commits.
     For branch history ```git log``` and for file history ```git log -follow <file name>```
 
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-log)
 
 * ### Git add
-    It stages a change to be included in your next commit. ```git add```
+    It stages a change to be included in your next commit. More of a temporary save that later can be commited.  ```git add```
 
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-add)
 
@@ -46,7 +46,7 @@
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-config)
 
 * ### Git diff 
-    See the file differences which are not yet staged. See the file differences between the files in the staging area and the latest version present. To see differences which are not staged ```git diff``` 
+    See the file differences which are not yet staged. See the file differences between the files in the staging area and the latest version present. Good for troubleshooting and making sure all changes are correct. To see differences which are not staged ```git diff``` 
 
     [Link to official refrence documentation](https://www.git-scm.com/docs/git-diff)
 

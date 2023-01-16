@@ -4,12 +4,13 @@
     Clones an existing repo into a new directory, good for testing without tampering with the "real" repo. ```git clone <URL>```
 
 * ### Git pull
-    Download content and updates your local repository to match the downloaded. ```git pull <branch name> <remote name>```
+    Download content and updates your local repository to match the downloaded. Used when wanting the latest version from remote repo. ```git pull <branch name> <remote name>```
 
 * ### Git push 
-    Upload your local repository and commits to a remote one. ```git push <branch name> <remote name>```
+    Upload your local repository and commits to a remote one. Used to upload your work to a remote repo. ```git push <branch name> <remote name>```
 
 * ### Git remote  
+    Connects your local repo to a remote one. 
     Enables devs to work on the same repository by all having remote duplicates, needed for cooperative work on the same repo, in my experience so far. To add a connection to remote repo ```git remote add <branch> <URL>``` To check current remote connection ```git remote -v```
 
 * ### Git merge
