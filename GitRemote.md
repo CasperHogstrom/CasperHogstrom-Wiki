@@ -1,3 +1,5 @@
+# Working with git remotly
+
 * Git remote -v (Check the current remote connection)
 
 * Git clone (Clones an existing repo into another place, good for testing without tampering with the "real" repo)
